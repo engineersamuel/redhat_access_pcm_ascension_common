@@ -4,6 +4,11 @@ Fork the main repo and work in your forked repo only.  It is best to create a ne
 
     git checkout -b <branch name>
 
+Before building make sure to always re-install npm modules
+    
+    rm -rf node_modules
+    npm install
+
 This project currently requires building the distribution locally and pushing that as well
 
     npm run build
